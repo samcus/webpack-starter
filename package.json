@@ -1,0 +1,39 @@
+{
+  "name": "webpack-starter-kit",
+  "version": "0.0.1",
+  "description": "Webpack Starter Kit",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "server": "node_modules/.bin/webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samcus/webpack-starter.git"
+  },
+  "keywords": [
+    "webpack",
+    "starter"
+  ],
+  "author": "Samuel Anthony Custer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samcus/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/samcus/webpack-starter#readme",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "node-sass": "^4.5.2",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-livereload-plugin": "^0.11.0"
+  }
+}
