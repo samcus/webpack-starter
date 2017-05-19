@@ -1,5 +1,6 @@
 # Installation
 ```sh
+$git clone https://github.com/samcus/webpack-starter.git
 $npm i -g webpack
 $npm install
 ```
