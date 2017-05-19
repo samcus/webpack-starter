@@ -17,9 +17,10 @@ $npm run server
 - JQuery
 - MomentJS
 - SCSS Compilation
+- Real Stylesheets Fallback (When JS is Disabled on the Client)
+- Babel Transpilation
 - Dev Server with Live Relead
 
 # To Add
-- Typescript Transpilation
 - JS/TS Linting
 - Environment Detection

@@ -1,13 +1,13 @@
 {
   "name": "webpack-starter-kit",
-  "version": "0.0.1",
+  "version": "0.0.1b",
   "description": "Webpack Starter Kit",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch",
-    "server": "node_modules/.bin/webpack-dev-server"
+    "server": "node_modules/.bin/webpack-dev-server --watch"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,11 @@
     "moment": "^2.18.1"
   },
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
     "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
