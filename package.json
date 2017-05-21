@@ -1,6 +1,6 @@
 {
   "name": "webpack-starter-kit",
-  "version": "0.0.1c",
+  "version": "1.0.0",
   "description": "Webpack Starter Kit",
   "main": "src/app.js",
   "scripts": {
@@ -36,6 +36,9 @@
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.1",
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.3.2",
+    "uglifyjs-webpack-plugin": "^0.4.3",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2",
     "webpack-livereload-plugin": "^0.11.0",

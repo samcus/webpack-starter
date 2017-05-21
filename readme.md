@@ -15,15 +15,14 @@ $npm run server
 ```
 
 # Includes
+- TypeScript Loader
 - JQuery
 - MomentJS
 - SCSS Compilation
 - Real Stylesheets Fallback (When JS is Disabled on the Client)
-- Babel Transpilation
 - Dev Server with Live Relead
 - Desktop Notifications
 
 # To Add
 - JS/TS Linting
-- Environment Detection
 - Image Minifcation
