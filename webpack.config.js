@@ -1,6 +1,7 @@
 const webpack = require("webpack");
 const LiveReloadPlugin = require('webpack-livereload-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const WebpackNotifierPlugin = require('webpack-notifier');
 
 const env = (process.env.NODE_ENV);
 
@@ -8,6 +9,7 @@ getPlugins = () => {
     var plugins = [];
     plugins.push(new LiveReloadPlugin());
     plugins.push(new ExtractTextPlugin("resources/screen.css"));
+    plugins.push(new WebpackNotifierPlugin({title: 'Webpack Starter', alwaysNotify: true}));
     return plugins;
 }
 

@@ -1,6 +1,6 @@
 {
   "name": "webpack-starter-kit",
-  "version": "0.0.1b",
+  "version": "0.0.1c",
   "description": "Webpack Starter Kit",
   "main": "src/app.js",
   "scripts": {
@@ -38,6 +38,7 @@
     "style-loader": "^0.16.1",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2",
-    "webpack-livereload-plugin": "^0.11.0"
+    "webpack-livereload-plugin": "^0.11.0",
+    "webpack-notifier": "^1.5.0"
   }
 }

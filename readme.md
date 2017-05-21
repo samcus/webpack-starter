@@ -21,7 +21,9 @@ $npm run server
 - Real Stylesheets Fallback (When JS is Disabled on the Client)
 - Babel Transpilation
 - Dev Server with Live Relead
+- Desktop Notifications
 
 # To Add
 - JS/TS Linting
 - Environment Detection
+- Image Minifcation
