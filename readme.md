@@ -16,13 +16,16 @@ $npm run server
 
 # Includes
 - TypeScript Loader
-- JQuery
-- MomentJS
+- TypeScript Linter
 - SCSS Compilation
-- Real Stylesheets Fallback (When JS is Disabled on the Client)
+- SCSS Linter
+- JQuery Included
+- MomentJS Included
+- Real Stylesheets Fallback (For Situations When JS is Disabled on the Client)
 - Dev Server with Live Relead
 - Desktop Notifications
+- Image Copier
 
-# To Add
-- JS/TS Linting
-- Image Minifcation
+# To Do
+- Image Optimization (Enhancement from Just Copying Images)
+- Dist/Resources Cleaning on Build
