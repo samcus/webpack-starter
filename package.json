@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "watch": "webpack --watch",
-    "server": "node_modules/.bin/webpack-dev-server --watch"
+    "server": "node_modules/.bin/http-server & webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -32,9 +32,11 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
-    "copy-webpack-plugin": "^4.0.1",
+    "clean-webpack-plugin": "^0.1.16",
     "css-loader": "^0.28.0",
     "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "http-server": "^0.10.0",
     "image-webpack-loader": "^3.3.1",
     "node-sass": "^4.5.2",
     "sass-lint": "^1.10.2",
@@ -47,6 +49,7 @@
     "typescript": "^2.3.2",
     "uglifyjs-webpack-plugin": "^0.4.3",
     "webpack": "^2.4.1",
+    "webpack-cleanup-plugin": "^0.5.1",
     "webpack-dev-server": "^2.4.2",
     "webpack-livereload-plugin": "^0.11.0",
     "webpack-notifier": "^1.5.0"

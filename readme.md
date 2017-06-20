@@ -15,8 +15,7 @@ $npm run server
 ```
 
 # Includes
-- TypeScript Loader
-- TypeScript Linter
+- ES6 Loader
 - SCSS Compilation
 - SCSS Linter
 - JQuery Included
